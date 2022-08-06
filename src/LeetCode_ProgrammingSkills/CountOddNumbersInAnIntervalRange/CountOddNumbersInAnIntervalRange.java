@@ -1,4 +1,5 @@
-package LeetCode_ProgrammingSkills;
+//https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
+package LeetCode_ProgrammingSkills.CountOddNumbersInAnIntervalRange;
 
 import java.util.stream.IntStream;
 
@@ -21,7 +22,7 @@ class Solution {
 }
 
 // 더 간결한 풀이
-class Solutio2 {
+class Solution2 {
     public int countOdds(int low, int high) {
         int range = high-low+1;
 

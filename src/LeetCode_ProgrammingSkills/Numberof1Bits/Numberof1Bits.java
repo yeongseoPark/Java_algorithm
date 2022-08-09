@@ -18,7 +18,7 @@ class Solution {
     }
 }
 
-class Solution2 {
+class Solution2 { // 비트연산 사용한 더 좋은 방법
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
         int ones = 0;

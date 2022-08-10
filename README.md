@@ -8,6 +8,17 @@
     - 이를 double로 바꾸는 방법
       1. getAsDouble()
       2. orElse()로 값이 없을시 기본값 지정
+  
+### Linked List
+- 선언
+  - LinkedList li = new LinkedList(); : 타입 설정x, Object로 입력
+  - LinkedList<Integer> ll = new LinkedList<Integer>(); : int 타입 Linked List
+- 값 추가: add() 메서드 사용
+  - add(object) : 마지막에 데이터 추가
+  - add(int index, object) : index에 데이터 추가
+- 값 가져오기 : get(int index)
+- 정렬 : List Collection 정렬시, Collections.sort()사용.
+
 
 ## 수
 - __Integer.MAX_VALUE__ : 32비트(4byte)로 표현할 수 있는 정수의 최대 값 2,147,483,647

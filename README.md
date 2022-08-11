@@ -19,6 +19,12 @@
 - 값 가져오기 : get(int index)
 - 정렬 : List Collection 정렬시, Collections.sort()사용.
 
+# Map
+- Map에서 첫번째 키,값을 가져오고 싶다면 : map.pollFirstEntry()
+## LinkedHashMap : 삽입 순서에 따라 개체가 정렬, 이를 변경할 수 없음
+## TreeMap : '정렬 기준에 따른 순서' 를 원하면 LinkedHashMap이 아니라 TreeMap 사용해야 함[예시]()
+- 키에 의해 자동 오름차순으로 정렬
+
 
 ## 수
 - __Integer.MAX_VALUE__ : 32비트(4byte)로 표현할 수 있는 정수의 최대 값 2,147,483,647

@@ -8,7 +8,10 @@
     - 이를 double로 바꾸는 방법
       1. getAsDouble()
       2. orElse()로 값이 없을시 기본값 지정
-  
+
+### ArrayList 
+- 크기가 고정돼 있지 않으므로, add()로 새 요소를 자유롭게 추가할 수 있다
+
 ### Linked List
 - 선언
   - LinkedList li = new LinkedList(); : 타입 설정x, Object로 입력
@@ -22,8 +25,23 @@
 # Map
 - Map에서 첫번째 키,값을 가져오고 싶다면 : map.pollFirstEntry()
 ## LinkedHashMap : 삽입 순서에 따라 개체가 정렬, 이를 변경할 수 없음
-## TreeMap : '정렬 기준에 따른 순서' 를 원하면 LinkedHashMap이 아니라 TreeMap 사용해야 함[예시]()
+## TreeMap : '정렬 기준에 따른 순서' 를 원하면 LinkedHashMap이 아니라 TreeMap 사용해야 함[예시](https://github.com/yeongseoPark/Java_algorithm/blob/master/src/LeetCode_ProgrammingSkills/FindtheNearestPointThathasSameXorY/solution.java)
 - 키에 의해 자동 오름차순으로 정렬
+
+# Set
+- 객체를 중복해서 저장불가, 저장 순서가 유지되지 않는다
+
+## HashSet
+1. 객체를 저장하기 전 객체의 hashCode() 메서드를 호출해서 해시코드를 얻어낸다
+2. 저장돼 있는 객체들의 해시코드와 비교한다
+3. 같은 해시코드가 있다면 equals()메서드로 두 객체를 비교한다
+4. true가 나오면 동일 객체로 판단하여 중복저장 X
+- 값 추가 : add(value)
+- 값 삭제 : remove(value)
+- 값이 있는지 확인 : contains(value)
+
+## TreeSet
+- HashSet과 달리 자동정렬을 해준다
 
 
 ## 수

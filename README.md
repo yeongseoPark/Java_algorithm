@@ -53,6 +53,9 @@
   - Character.getNumericValue(ch)
 
 ## 문자열
+- String의 길이재기 : str.length()
+- 특정 위치의 문자가져오기 : str.charAt(i)
+  - char 타입으로 변환된다
 - __for-each 루프를 문자열에 적용하기__
   - for (char ch: "xyz".toCharArray()) 
     - 배열을 복사하는 비용 든다

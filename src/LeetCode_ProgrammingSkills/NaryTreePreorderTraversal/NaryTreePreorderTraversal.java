@@ -33,7 +33,7 @@ class Solution {
         
         if (nde.children.isEmpty()) {
             arr.add(nde.val);
-            return arr;
+//           1.  return arr; -> arr이라는 바깥의 변수에 결과가 업데이트 되기에 return arr필요하지 않다, return을 타고 값이 돌아올 필요가 없는 경우.
         } else {
             arr.add(nde.val);
             for (Node ch: nde.children) {
@@ -42,6 +42,6 @@ class Solution {
             }
         }
 
-        return arr;
+        return arr; // 2. 여기서 모든 서칭이 끝나면 리턴해주기 때문
     }
 }

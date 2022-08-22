@@ -1,5 +1,7 @@
 package LeetCode_ProgrammingSkills.CheckIfitIsaStraightLine;
 
+import java.util.HashMap;
+
 class Solution {
     public static boolean checkStraightLine(int[][] coordinates) {
         if (coordinates[0][0] == coordinates[1][0]) { // 기울기 무한대
@@ -30,6 +32,5 @@ class Solution {
     public static void main(String[] args) {
         int[][] ss = {{2,1},{4,2},{6,3}};
         System.out.println(checkStraightLine(ss));
-
     }
 }

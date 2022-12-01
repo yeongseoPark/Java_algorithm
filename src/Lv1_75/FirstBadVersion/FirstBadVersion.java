@@ -1,8 +1,8 @@
-package FirstBadVersion;
+package Lv1_75.FirstBadVersion;
 
 
 
-public class Solution{
+class Solution{
     public int firstBadVersion(int n) {
         int left = 1;
         int right = n;

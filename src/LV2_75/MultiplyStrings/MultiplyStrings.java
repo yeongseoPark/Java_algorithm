@@ -1,8 +1,4 @@
-package LV2_75.HappyNumber.MultiplyStrings;
-
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.regex.Matcher;
+package LV2_75.MultiplyStrings;
 
 public class MultiplyStrings {
     public String multiply(String num1, String num2) {

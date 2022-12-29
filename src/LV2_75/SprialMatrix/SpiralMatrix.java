@@ -1,4 +1,4 @@
-package LV2_75.HappyNumber.SprialMatrix;
+package LV2_75.SprialMatrix;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package LV2_75.HappyNumber.LongestCommonPrefix;
+package LV2_75.LongestCommonPrefix;
 
 import java.util.Arrays;
 

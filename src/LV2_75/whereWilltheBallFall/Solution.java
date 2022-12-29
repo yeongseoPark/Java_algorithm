@@ -1,7 +1,4 @@
-package LV2_75.HappyNumber.whereWilltheBallFall;
-
-import java.util.ArrayList;
-import java.util.List;
+package LV2_75.whereWilltheBallFall;
 
 class Solution {
     public static int[] findBall(int[][] grid) {
